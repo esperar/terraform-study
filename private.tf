@@ -1,5 +1,3 @@
-private.tf
-
 resource "aws_instance" "private-ec2" {
   ami = "${var.Private_EC2_ami}"
   instance_type = "${var.Private_EC2_instance_type}"
